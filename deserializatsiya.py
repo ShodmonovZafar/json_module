@@ -23,6 +23,7 @@ data1 = json.loads(json_data1)
 
 path1 = "text_files/text_file1.txt"
 path2 = "json_files/json_file1.json"
+path3 = "json_files/json_file2.json"
 
 with open(path1) as file:
     json_string = file.read()
@@ -37,3 +38,6 @@ with open(path2) as file:
 with open(path2) as file:
     json_string = file.read()
     data5 = json.loads(json_string)
+
+with open(path3) as file:
+    data6 = json.load(file)
