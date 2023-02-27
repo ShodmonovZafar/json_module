@@ -1,4 +1,14 @@
 {
-    "ism":"Zafar",
-    "yosh":27
+  "employee0": {
+    "firstName": "John",
+    "lastName": "Smith",
+    "age": 35,
+    "city": "San Francisco"
+  },
+  "employee1": {
+    "firstName": "Zoe",
+    "lastName": "Thompson",
+    "age": 32,
+    "city": "Los Angeles"
+  }
 }
